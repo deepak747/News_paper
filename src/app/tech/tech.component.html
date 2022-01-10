@@ -1,0 +1,18 @@
+<!-- <p>tech works!</p> -->
+
+
+<!-- <p>topheading works!</p> -->
+<div class="container-fluid mt-3" >
+    <h2 >Top headLines <marquee>please complete your all logics at soon and we redy for the projects</marquee> </h2>
+        <div class="row mt-5 ">
+                
+                    <div class="col-md-3 mb-5" *ngFor="let nd of technologydata">
+                          <div class="box">   
+                        <h3 class="mt-3 mb-3">{{nd.title}}</h3>
+                        <img src="{{nd.urlToImage}}" width="100%">
+                        <a class="btn btn-dark btn-sm mt-3 ml-auto d-block" target="_blank" href="{{nd.url}}">Read More</a>
+                         </div>
+                    </div>
+        </div>
+</div>
+
